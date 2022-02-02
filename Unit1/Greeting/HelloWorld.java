@@ -1,4 +1,4 @@
-package Greeting;
+package Unit1.Greeting;
 
 public class HelloWorld {
     public static void main(String[] args) {

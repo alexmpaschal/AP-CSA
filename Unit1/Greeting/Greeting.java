@@ -1,4 +1,4 @@
-package Greeting;
+package Unit1.Greeting;
 import java.util.Scanner;
 
 public class Greeting {

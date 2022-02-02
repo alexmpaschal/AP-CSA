@@ -1,4 +1,4 @@
-package ShapeLab;
+package  Unit1.ShapeLab;
 import java.util.Scanner;
 
 public class Main {

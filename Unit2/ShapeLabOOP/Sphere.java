@@ -1,7 +1,7 @@
 /* This program will create Cube objects and calculate 
 volume and surface area */
 
-package ShapeLabOOP;
+package Unit2.ShapeLabOOP;
 
 public class Sphere {
     // Instance variables
