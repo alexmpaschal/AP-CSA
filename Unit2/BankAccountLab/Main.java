@@ -3,7 +3,7 @@ package Unit2.BankAccountLab;
 public class Main {
     public static void main(String[] args) {
         // Make two new Account objects, savingsAccount and checkingAccount
-        Account savingsAccount = new Account( 5000.00, .02, 12345);
+        Account savingsAccount = new Account( 5000.00, .02, 12345 );
         Account checkingAccount = new Account( 3000.00, .005, 56789 );
 
         // Display account information for each object
@@ -28,7 +28,7 @@ public class Main {
 
         // Withdraw $1000.00 from each account and display new balances
         System.out.println( "\nWithdrawing $1000.00 from each account" );
-        savingsAccount.withdrawFunds( 1000.00);
+        savingsAccount.withdrawFunds( 1000.00 );
         checkingAccount.withdrawFunds( 1000.00 );
 
         System.out.println( "\nDisplaying new account balances..." );
