@@ -1,3 +1,5 @@
+/* This program will create Account objects with balances, interest rates, and account numbers, and allow the account balances and interest rates to be manipulated by the user with methods. */
+
 package Unit2.BankAccountLab;
 
 public class Account {

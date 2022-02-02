@@ -1,5 +1,4 @@
-/* This program will create Cube objects and calculate 
-volume and surface area */
+/* This program will create Cube objects and create methods to calculate the volume and surface area of them. */
 
 package Unit2.ShapeLabOOP;
 
