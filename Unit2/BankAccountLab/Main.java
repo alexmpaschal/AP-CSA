@@ -37,8 +37,8 @@ public class Main {
 
         // Withdraw $6000.00 from each account to display error message
         System.out.println( "\nAttempting to withdraw $6000.00 from each account" );
-        
-        System.out.println( savingsAccount.withdrawFunds( 6000.00 ) );
+
+        System.out.println( "\n" + savingsAccount.withdrawFunds( 6000.00 ) );
         System.out.println( checkingAccount.withdrawFunds( 6000.00 ) );
     }
 
