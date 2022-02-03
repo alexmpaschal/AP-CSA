@@ -9,7 +9,7 @@ public class Account {
     int accountNumber;
 
     // Constructor
-    public Account ( double ab, double ir, int an ) {
+    public Account( double ab, double ir, int an ) {
         accountBalance = ab;
         interestRate = ir;
         accountNumber = an;
@@ -32,7 +32,7 @@ public class Account {
         accountBalance += depositValue;
     }
 
-    public void setRate ( double newRate ) {
+    public void setRate( double newRate ) {
         interestRate = newRate;
     }
 
