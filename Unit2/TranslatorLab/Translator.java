@@ -24,6 +24,7 @@ public class Translator {
             // Return current word and "way" concatenated together
             return word + "way";
         }
+
         for (int i = 0; i < word.length(); i++) {
             // Check if current character is a vowel
             if (isVowel(word.charAt(i)) == true) {
@@ -33,6 +34,21 @@ public class Translator {
             // Add current character to temp variable
             temp += word.charAt(i);
         }
+
+        // Reset temp variable value
+        temp = "";
+
+        for (int i = 0; i < word.length(); i++) {
+            // Check if current character is 'y'
+            if (word.charAt(i) == 'y') {
+                // Concatenate remaining word, temp variable, and "ay" and return that String
+                return word.substring(i) + temp + "ay";
+            }
+            // Add current character to temp variable
+            temp += word.charAt(i);
+        }
+
+        // Return error message "Invalid word"
         return "Invalid word";
     }
 
