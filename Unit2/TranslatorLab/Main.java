@@ -1,6 +1,8 @@
 package Unit2.TranslatorLab;
 import java.util.Scanner;
 
+/*This program will test the Translator class by asking for input from a user and then using the Class's methods to obfuscate the user's input*/
+
 public class Main {
     public static void main(String[] args) {
         // Initialize Scanner object

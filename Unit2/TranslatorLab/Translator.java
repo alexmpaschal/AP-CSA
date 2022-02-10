@@ -1,5 +1,7 @@
 package Unit2.TranslatorLab;
 
+/* This program will create a Translator class with one instance variable (word) and two methods accessible to the user (pigLatin() and mySecretLanguage())*/
+
 public class Translator {
     // Instance variables
     String word;
@@ -11,7 +13,7 @@ public class Translator {
     }
 
     // Methods
-    public boolean isVowel(char c) {
+    private boolean isVowel(char c) {
         if (Character.toLowerCase(c) == 'a' || Character.toLowerCase(c) == 'e' || Character.toLowerCase(c) == 'i' || Character.toLowerCase(c) == 'o' || Character.toLowerCase(c) == 'u') {
             return true;
         }
