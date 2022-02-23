@@ -1,6 +1,8 @@
 package Unit3.GPALab;
 import java.util.Scanner;
 
+/* This program will test the StudentGPA class by creating 3 objects (student1, student2, and student3) and testing various methods on them. */
+
 public class Main {
     public static void main(String[] args) {
         // Initialize Scanner object
