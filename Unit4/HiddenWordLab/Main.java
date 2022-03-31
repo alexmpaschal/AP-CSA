@@ -31,6 +31,8 @@ public class Main {
             System.out.println("Hint: " + hint);
         }
 
+        kboard.close();
+
         System.out.println("Congratulations!");
     }
 }
